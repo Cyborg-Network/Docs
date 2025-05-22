@@ -25,16 +25,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Demo Walkthrough',
+    title: 'Coming soon!!!',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Step-by-step guide for beta testers and AI projects to launch models on our testnet.
-        <div className={styles.featureLink}>
-          <a href="/docs/demo-walkthrough" className={styles.link}>
-            Start the demo →
-          </a>
-        </div>
+        Coming soon....
       </>
     ),
   },

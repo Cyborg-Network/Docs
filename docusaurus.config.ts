@@ -109,8 +109,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/cyborgnetwork',
+              label: 'Telegram',
+              href: 'https://t.me/CyborgNetworkOfficial',
             },
             {
               label: 'Twitter',
