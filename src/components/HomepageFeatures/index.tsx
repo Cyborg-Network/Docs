@@ -15,7 +15,12 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-       Learn about Cyborg Network's technology in simple terms with real-world examples and use cases.
+        Learn about Cyborg Network's technology in simple terms with real-world examples and use cases.
+        <div className={styles.featureLink}>
+          <a href="/docs/business-docs" className={styles.link}>
+            Explore business cases →
+          </a>
+        </div>
       </>
     ),
   },
@@ -25,6 +30,11 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Step-by-step guide for beta testers and AI projects to launch models on our testnet.
+        <div className={styles.featureLink}>
+          <a href="/docs/demo-walkthrough" className={styles.link}>
+            Start the demo →
+          </a>
+        </div>
       </>
     ),
   },
@@ -34,6 +44,11 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Instructions for reviewers to clone repositories locally and test them successfully.
+        <div className={styles.featureLink}>
+          <a href="/docs/developer-testing" className={styles.link}>
+            View developer docs →
+          </a>
+        </div>
       </>
     ),
   },
@@ -41,7 +56,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4', styles.featureCard)}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

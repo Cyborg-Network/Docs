@@ -71,7 +71,9 @@ const config: Config = {
       title: 'Cyborg Network',
       logo: {
         alt: 'Cyborg Logo',
-        src: 'img/cyborg-logo.svg',
+        src: 'img/cyborg.jpeg',
+        width: 32,
+        height: 32,
       },
       items: [
         {
@@ -81,7 +83,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/cyborgnetwork/docs',
+          href: 'https://github.com/Cyborg-Network',
           label: 'GitHub',
           position: 'right',
         },
@@ -91,11 +93,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
-              label: 'Docs',
-              to: '/docs/intro',
+              label: 'Introduction',
+              to: '/docs/introduction',
+            },
+            {
+              label: 'Getting Started',
+              to: '/docs/getting-started',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/cyborgnetwork',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/Cyborg_network_',
             },
           ],
         },
@@ -104,12 +123,16 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/cyborgnetwork/docs',
+              href: 'https://github.com/Cyborg-Network',
+            },
+            {
+              label: 'Blog',
+              href: 'https://cyborgnetwork.io',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cyborg Network. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cyborg Network. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
