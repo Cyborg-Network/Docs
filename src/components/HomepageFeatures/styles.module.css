@@ -1,20 +1,32 @@
 .features {
   display: flex;
   align-items: center;
+  justify-content: center; 
   padding: 5rem 0;
   width: 100%;
   background: linear-gradient(135deg, #0a0a0a 0%, #1e1e1e 100%);
 }
 
+.container .row {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px; 
+}
 
 .featureCard {
   background: var(--ifm-card-background-color);
   border-radius: 12px;
   padding: 2rem;
-  margin: 0 1rem;
+  margin: 1rem; 
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
+  flex: 1;
+  min-width: 300px;
+  max-width: 380px; 
 }
 
 .featureCard:hover {
