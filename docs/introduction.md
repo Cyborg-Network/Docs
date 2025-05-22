@@ -11,7 +11,7 @@ Cyborg Network is a decentralized edge computing platform built on Substrate, de
 ## Documentation Sections
 
 1. **[Business Documentation](/docs/business-docs)**: Understand our technology with simple explanations and real-world examples
-2. **[Demo Walkthrough](/docs/demo-walkthrough)**: Guide for beta testers to launch models on our testnet
+2. **Demo Walkthrough**: Guide for beta testers to launch models on our testnet. Coming soon..
 3. **[Developer Testing](/docs/developer-testing)**: Instructions for local testing and code review
 
 ## Getting Started

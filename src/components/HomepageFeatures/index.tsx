@@ -25,11 +25,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Coming soon!!!',
+    title: 'Demo Walkthrough',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Coming soon....
+        Coming soon!!
       </>
     ),
   },
