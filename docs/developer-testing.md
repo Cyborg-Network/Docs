@@ -33,8 +33,8 @@ docker run <image-id> --network="host"
 ```
 2. From Source 
 ```bash
-git clone https://github.com/Cyborg-Network/Cyborg-worker-node.git
-cd Cyborg-worker-node
+git clone https://github.com/Cyborg-Network/Cyborg-miner.git
+cd Cyborg-miner
 cargo build --release
 ```
 3. Testing
