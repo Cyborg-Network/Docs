@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'cyborgnetwork', // Usually your GitHub org/user name.
+  organizationName: 'Cyborg-Network', // Usually your GitHub org/user name.
   projectName: 'Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
