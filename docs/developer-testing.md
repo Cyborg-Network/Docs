@@ -42,5 +42,4 @@ Run unit tests:
 ```bash
 cargo test
 ```
-For complete testing instructions, refer to the Local Testing guide.
-```
+For complete testing instructions, please refer to the [local testing guide](https://github.com/Cyborg-Network/cyborg-parachain/blob/master/Local%20Testing%20NeuroZK_Milestone2.md).
