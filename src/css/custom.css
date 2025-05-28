@@ -8,6 +8,9 @@
 
 
 :root {
+  --ifm-font-color-base: #e0e0e0;
+  --ifm-heading-color: #ffffff; 
+
   --ifm-color-primary: #8a2be2; /* Vibrant purple */
   --ifm-color-primary-dark: #7b1fa2;
   --ifm-color-primary-darker: #6a1b9a;
@@ -26,6 +29,8 @@
 }
 
 [data-theme='dark'] {
+  --ifm-font-color-base: #e0e0e0; /* Light gray for dark background */
+  --ifm-heading-color: #ffffff; 
   --ifm-color-primary: #9c4dff;
   --ifm-color-primary-dark: #8a2be2;
   --ifm-color-primary-darker: #7b1fa2;
