@@ -17,8 +17,8 @@ const FeatureList: FeatureItem[] = [
       <>
         Learn about Cyborg Network's technology in simple terms with real-world examples and use cases.
         <div className={styles.featureLink}>
-          <a href="/Docs/docs/business-docs" className={styles.link}>
-            Explore business cases →
+          <a href="/docs/business-docs" className={styles.link}>
+            Explore business cases
           </a>
         </div>
       </>
@@ -40,8 +40,8 @@ const FeatureList: FeatureItem[] = [
       <>
         Instructions for reviewers to clone repositories locally and test them successfully.
         <div className={styles.featureLink}>
-          <a href="/Docs/docs/developer-testing" className={styles.link}>
-            View developer docs →
+          <a href="/docs/developer-testing" className={styles.link}>
+            View developer docs
           </a>
         </div>
       </>
